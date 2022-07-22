@@ -18,6 +18,14 @@ namespace NETFramework
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
+            
+            SystemWebAdapterConfiguration.AddSystemWebAdapters(this)
+            .AddProxySupport(options => options.UseForwardedHeaders = true)
+            .AddRemoteApp(options =>
+            {
+                options.ApiKey = "MySecretKey";
+            })
+            .AddRemoteAppAuthentication();
         }
     }
 }
