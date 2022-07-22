@@ -5,6 +5,8 @@ VisualStudioVersion = 17.3.32714.290
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NETFramework", "NETFramework\NETFramework.csproj", "{61A465B1-CAF2-483B-B4D9-882D0BD64D8C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NETFrameworkCore", "NETFrameworkCore\NETFrameworkCore.csproj", "{678A7B9F-6BF3-4598-8041-56855E3502B7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{61A465B1-CAF2-483B-B4D9-882D0BD64D8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{61A465B1-CAF2-483B-B4D9-882D0BD64D8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{61A465B1-CAF2-483B-B4D9-882D0BD64D8C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{678A7B9F-6BF3-4598-8041-56855E3502B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{678A7B9F-6BF3-4598-8041-56855E3502B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{678A7B9F-6BF3-4598-8041-56855E3502B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{678A7B9F-6BF3-4598-8041-56855E3502B7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -26,6 +26,9 @@
     <UseGlobalApplicationHostFile />
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
+    <_MigrationKind>yarp</_MigrationKind>
+    <_MigrateToProjectPath>..\NETFrameworkCore\NETFrameworkCore.csproj</_MigrateToProjectPath>
+    <_MigrateToProjectGuid>678a7b9f-6bf3-4598-8041-56855e3502b7</_MigrateToProjectGuid>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
